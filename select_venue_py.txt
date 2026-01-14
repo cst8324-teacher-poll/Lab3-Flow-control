@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+# Program name: select_venue.py
+
+venue = input("Enter venue (restaurant, movie): ").lower()
+
+if venue == "restaurant":
+    ethnic = input("Italian or Chinese? ").lower()
+    if ethnic == "Italian":
+        print("Pasta it is!")
+    elif ethnic == "Chinese":
+        print("How about Dim Sum?!")
+
+elif venue == "movie":
+    print("Let’s check out a new release.")
